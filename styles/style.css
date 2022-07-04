@@ -1,0 +1,55 @@
+body {
+    background-image: url("/images/background-img.jpg");
+    background-size: 100%;
+}
+
+.magic-ball {
+    height: 45%;
+    width: 45%;
+}
+
+.ball-animation {
+    animation: shake 2s ease-in-out forwards;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    10%, 
+    30%, 
+    50%, 
+    70%, 
+    90% {
+        transform: translate(30px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translate(-30px);
+    }
+}
+
+
+.header-ball {
+    color: white;
+}
+
+.header-question {
+    color: white;
+}
+
+#ask-btn {
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+}
+
+#new-btn {
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+}
